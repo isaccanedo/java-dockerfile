@@ -1,8 +1,8 @@
-##### build Docker image called java-app. Execute from root
+##### Construir uma imagem do Docker chamada java-app. Executar da raiz
 
     docker build -t java-app .
     
-##### push image to repo 
+##### Empurrar imagem para repo
 
     docker tag java-app demo-app:java-1.0
     
